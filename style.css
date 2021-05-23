@@ -14,6 +14,8 @@ section {
     justify-content: space-between;
     align-items: center;
     background: #0062be;
+    /* background-image: url(img/recife.jpg);
+    background-size: cover; */
     transition: 0.5s;
 }
 
@@ -31,6 +33,7 @@ header {
 header .logo {
     position: relative;
     max-width: 80px;
+    border-radius: 50%;
 }
 
 header ul {
@@ -126,7 +129,7 @@ header ul li a {
 
 
 .thumb li img { 
-    max-width: 40px;
+    max-width: 80px;
 }
 
 .sci {

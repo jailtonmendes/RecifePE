@@ -5,6 +5,10 @@
     font-family: 'Popins', sans-serif;
 }
 
+body {
+    /* cursor: url('img/twitter.png'), pointer; */
+}
+
 section {
     position: relative;
     width: 100%;
@@ -96,7 +100,8 @@ header ul li a {
 }
 
 .content .imgBox {
-    width: 600px;
+    width: 500px;
+    height: 250px;
     display: flex;
     padding-right: 50px;
     margin-top: 50px;
@@ -129,7 +134,7 @@ header ul li a {
 
 
 .thumb li img { 
-    max-width: 80px;
+    max-width: 90px;
 }
 
 .sci {
@@ -152,4 +157,9 @@ header ul li a {
     filter: invert(1); /*Inverter a cor da imagem*/
     margin: 5px 0;
     transform: scale(0.6);
+}
+
+.titulo, .subtitulo {
+    font-family: 'verdana';
+    letter-spacing: 3px;
 }
